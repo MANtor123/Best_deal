@@ -8,5 +8,13 @@ describe('The avo function', function(){
     var stringSplit = string.split(',')
   });
 
-  
+
+  it('should loop through the new string', function(){
+    var newString = function(newDeal) {
+      for(var i =0; i < stringSplit.length; i++){
+        var deal = stringSplit[i]
+      }
+    }
+
+  });
 });
